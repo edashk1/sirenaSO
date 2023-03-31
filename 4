@@ -1,0 +1,18 @@
+// This program checks whether a given number is even or odd
+
+import java.util.Scanner; // Import the Scanner class to read user input
+
+public class EvenOrOdd {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Create a new Scanner object
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt(); // Read user input
+
+        // Check if the number is even or odd and print the result
+        if(number % 2 == 0) {
+            System.out.println(number + " is even.");
+        } else {
+            System.out.println(number + " is odd.");
+        }
+    }
+}
